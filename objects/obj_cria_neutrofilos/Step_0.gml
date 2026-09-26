@@ -1,0 +1,4 @@
+timer_criando++;
+
+criando();
+
