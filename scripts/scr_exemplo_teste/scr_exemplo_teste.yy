@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_exemplo_teste",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_exemplo_teste",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Tween/Exemplos/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

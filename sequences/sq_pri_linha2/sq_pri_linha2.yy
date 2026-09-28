@@ -157,10 +157,7 @@
             ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"scale","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4294068389,"tracks":[],"traits":0,},
       ],"traits":0,},
   ],
-  "visibleRange":{
-    "x":17.0,
-    "y":300.0,
-  },
+  "visibleRange":null,
   "volume":1.0,
   "xorigin":-144,
   "yorigin":-256,

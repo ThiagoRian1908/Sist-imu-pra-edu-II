@@ -2,7 +2,6 @@
 layer_sequence_create("Seq_inimigos", 0, 0, ondas[atual]);
 
 
-
 //Se ainda tenho ondas no array
 if (atual < array_length(ondas) - 1)
 {

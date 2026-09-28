@@ -1,3 +1,6 @@
+//O valor do efeito
+escala_sobre = 1.2;
+
 //Variáveis
 estado = "chegando";
 
@@ -47,6 +50,10 @@ maquina_de_estados = function()
     
         case "atirando":
         {
+            //Esticando
+            image_xscale = 1.5;
+            image_yscale = 0.5;
+            
             if (instance_exists(obj_personegem))
             {
                 var _ang = 255;

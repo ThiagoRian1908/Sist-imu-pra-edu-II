@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4d2e68db-8ea8-496d-9723-2e7fe4df7d87","name":"4d2e68db-8ea8-496d-9723-2e7fe4df7d87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a50db22e-089a-490c-b973-b7ac0f793f95","name":"a50db22e-089a-490c-b973-b7ac0f793f95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":59,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"790899c3-0781-4ade-bd7e-17381274db1e","blendMode":0,"displayName":"default","isLocked":false,"name":"790899c3-0781-4ade-bd7e-17381274db1e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"aef88a84-6955-4c00-a9a5-82cd6475aa29","blendMode":0,"displayName":"default","isLocked":false,"name":"aef88a84-6955-4c00-a9a5-82cd6475aa29","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_neutrofilo",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Inimigos",
-    "path":"folders/Sprites/Inimigos.yy",
+    "name":"Primeira Linha",
+    "path":"folders/Sprites/Inimigos/Primeira Linha.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d2e68db-8ea8-496d-9723-2e7fe4df7d87","path":"sprites/spr_neutrofilo/spr_neutrofilo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9544cbd3-8115-4311-99c6-15698476703a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a50db22e-089a-490c-b973-b7ac0f793f95","path":"sprites/spr_neutrofilo/spr_neutrofilo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"71871158-a576-4ab1-a2ca-2235b9caafeb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
