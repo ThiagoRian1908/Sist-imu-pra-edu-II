@@ -4,7 +4,10 @@ colisao();
 //Mantendo o player vencível
 timer_invencivel--;
 
-//Ficando prese
+//Fazendo o jogo acabar
+tempo_acabar--;
+
+//Ficando preso
 if (place_meeting(x, y, obj_tiro_prende))
 {
     image_blend = c_red;
@@ -14,6 +17,13 @@ else
 {
 	vel = 3.5;
     image_blend = c_white;
+}
+
+
+
+if (keyboard_check_pressed(ord("R")))
+{
+    game_restart();
 }
 
 

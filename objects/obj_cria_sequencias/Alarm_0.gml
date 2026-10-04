@@ -9,6 +9,8 @@ if (atual < array_length(ondas) - 1)
     atual++;
     
     //Reiniciando o alarme
-    alarm[0] = 320;
+
+    //alarm[0] = 320;
+    alarm[0] = 400;
 }
 

@@ -1,4 +1,3 @@
 draw_self();
-/*
-draw_text(x, y, vidas);
-draw_text(x, y + 3, timer_invencivel);
+
+draw_text(x, y + 1, tempo_acabar);

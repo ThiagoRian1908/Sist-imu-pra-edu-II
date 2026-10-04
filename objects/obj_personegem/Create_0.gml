@@ -9,9 +9,15 @@ tempo_lerp = 60 * 1;
 timer_lerp = 0;
 
 //Personagem
-vidas = 5;
+vidas = 10;
 tempo_invencivel = 60;
 timer_invencivel = 0;
+
+tempo_acabar = (60 * 60) * 1;
+//tempo_acabar = (60) * 1.1;
+
+global.acabou = 0;
+
 
 //Controlando o player
 controla_player = function()
@@ -59,7 +65,7 @@ controla_player = function()
 }
 
 //Desenhando os icones
-desenha_icone = function(_imagem = spr_icone_vida, _vezes = 1, _y = 20)
+desenha_icone = function(_imagem = spr_icone_vidas, _vezes = 1, _y = 20)
 {
 
 	var _meu_x = 0;
@@ -84,7 +90,7 @@ colisao = function()
         {
             if (vidas > 1)
             {
-                tremendo(10);
+                tremendo(15);
                 
                 vidas--;
                 
@@ -92,8 +98,24 @@ colisao = function()
             }
             else 
             {
-                tremendo(50);
-            	game_restart();
+                //Fazendo o final do jogo
+                if (tempo_acabar > 0)
+                { 
+                    tremendo(50);
+            	    game_restart();
+                }
+                else 
+                {
+                    instance_create_depth(x, y, +1, obj_cria_sequencias_final);
+                    tremendo(50);
+                	global.acabou = 1;
+                    instance_destroy();
+                    with (obj_neutrofilo) 
+                    {
+                    	instance_destroy();
+                    }
+                }
+                
             }
             
         }

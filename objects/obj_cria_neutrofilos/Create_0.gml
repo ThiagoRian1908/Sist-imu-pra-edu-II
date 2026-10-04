@@ -1,4 +1,4 @@
-tempo_criando = 60 * 10;
+tempo_criando = 60 * 15;
 timer_criando = 0;
 
 criando = function()

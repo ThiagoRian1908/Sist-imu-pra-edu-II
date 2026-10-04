@@ -56,6 +56,9 @@ maquina_de_estados = function()
             
             if (instance_exists(obj_personegem))
             {
+                //Som do tiro
+                audio_play_sound(snd_atirando, 1, 0);
+                
                 var _ang = 255;
                 repeat(3)
                     {
@@ -81,6 +84,7 @@ maquina_de_estados = function()
                 timer_tiro_prende = 0;
                 estado = "carregando";
             }
+            
             
             var _dir = point_direction(x, y, obj_personegem.x, obj_personegem.y);
             

@@ -30,7 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"texto","filters":[],"listItems":[],"multiselect":false,"name":"texto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Jogar","varType":2,},
-    {"$GMObjectProperty":"v2","%Name":"cor_1","filters":[],"listItems":[],"multiselect":false,"name":"cor_1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFC0AE9D","varType":7,},
+    {"$GMObjectProperty":"v2","%Name":"cor_1","filters":[],"listItems":[],"multiselect":false,"name":"cor_1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFA0BADC","varType":7,},
     {"$GMObjectProperty":"v2","%Name":"cor_2","filters":[],"listItems":[],"multiselect":false,"name":"cor_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFA6795C","varType":7,},
   ],
   "resourceType":"GMObject",

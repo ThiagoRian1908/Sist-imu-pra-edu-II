@@ -26,8 +26,8 @@
   },
   "name":"sq_pri_linha",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"Linhas de defesa",
+    "path":"folders/Sequences/Linhas de defesa.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,
