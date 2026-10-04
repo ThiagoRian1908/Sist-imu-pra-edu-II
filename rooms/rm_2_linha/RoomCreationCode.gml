@@ -1,0 +1,1 @@
+global.segunda_linha = 0;

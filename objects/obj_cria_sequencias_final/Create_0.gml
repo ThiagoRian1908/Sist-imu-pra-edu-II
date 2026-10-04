@@ -8,5 +8,6 @@ atual = 0;
 
 //Definindo o alarme
 alarm[0] = 100;
+alarm[1] = 1000;
 
 

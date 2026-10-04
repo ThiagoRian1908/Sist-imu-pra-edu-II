@@ -1,19 +1,24 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_tutorial",
-  "creationCodeFile":"rooms/rm_tutorial/RoomCreationCode.gml",
+  "%Name":"rm_1_linha",
+  "creationCodeFile":"rooms/rm_1_linha/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5230BE3B","path":"rooms/rm_tutorial/rm_tutorial.yy",},
-    {"name":"inst_455995A5","path":"rooms/rm_tutorial/rm_tutorial.yy",},
+    {"name":"inst_5230BE3B","path":"rooms/rm_1_linha/rm_1_linha.yy",},
+    {"name":"inst_455995A5","path":"rooms/rm_1_linha/rm_1_linha.yy",},
+    {"name":"inst_7FBE0597","path":"rooms/rm_1_linha/rm_1_linha.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Botoes","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRInstanceLayer":"","%Name":"Botoes","depth":0,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_5230BE3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5230BE3B","objectId":{"name":"obj_1_linha","path":"objects/obj_1_linha/obj_1_linha.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":128.0,},
         {"$GMRInstance":"v4","%Name":"inst_455995A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_455995A5","objectId":{"name":"obj_texto_1","path":"objects/obj_texto_1/obj_texto_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":144.0,"y":288.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7FBE0597","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FBE0597","objectId":{"name":"obj_botao_linhas","path":"objects/obj_botao_linhas/obj_botao_linhas.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao_linhas","path":"objects/obj_botao_linhas/obj_botao_linhas.yy",},"propertyId":{"name":"texto","path":"objects/obj_botao_linhas/obj_botao_linhas.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sair",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao_linhas","path":"objects/obj_botao_linhas/obj_botao_linhas.yy",},"propertyId":{"name":"destino","path":"objects/obj_botao_linhas/obj_botao_linhas.yy",},"resource":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_menu",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.7,"x":144.0,"y":464.0,},
       ],"layers":[],"name":"Botoes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"bg_3","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bg_3","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bg_3","path":"sprites/spr_bg_3/spr_bg_3.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.7,"vtiled":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"bg_2","animationFPS":30.0,"animationSpeedType":0,"colour":3623878655,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bg_2","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bg_2","path":"sprites/spr_bg_2/spr_bg_2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.6,"vtiled":true,"x":0,"y":0,},
@@ -24,7 +29,7 @@
     {"$GMRBackgroundLayer":"","%Name":"bg_1","animationFPS":30.0,"animationSpeedType":0,"colour":3556769791,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bg_1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bg_1","path":"sprites/spr_bg_1/spr_bg_1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.5,"vtiled":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"bg_0","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"bg_0","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bg_0","path":"sprites/spr_bg_0/spr_bg_0.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.4,"vtiled":true,"x":0,"y":0,},
   ],
-  "name":"rm_tutorial",
+  "name":"rm_1_linha",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
