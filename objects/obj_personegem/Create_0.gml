@@ -9,7 +9,7 @@ tempo_lerp = 60 * 1;
 timer_lerp = 0;
 
 //Personagem
-vidas = 10;
+vidas = 3;
 tempo_invencivel = 60;
 timer_invencivel = 0;
 
@@ -54,8 +54,8 @@ controla_player = function()
     }
     else if (_baixo_est)
     {
-        image_xscale = 1.5;
-        image_yscale = 0.5;
+        image_xscale = 0.5;
+        image_yscale = 1.8;
     }
     
 	//Limites
@@ -92,6 +92,9 @@ colisao = function()
             {
                 tremendo(15);
                 
+                image_xscale = 1.5;
+                image_yscale = 0.5;
+                
                 vidas--;
                 
                 timer_invencivel = tempo_invencivel;
@@ -112,7 +115,23 @@ colisao = function()
                     instance_destroy();
                     with (obj_neutrofilo) 
                     {
-                    	instance_destroy();
+                    	//instance_destroy();
+                        var _ang = 255;
+                        var _index = 0;
+                        
+                        repeat (13) 
+                        {
+                            var _quebrado = instance_create_layer(x, y, "Inimigos", obj_quebrando);
+                            _quebrado.direction = _ang;
+                            _quebrado.image_index = _index;
+                            
+                            
+                            _ang += 30;
+                            _index += 1;
+                        }
+                        
+                        instance_destroy();
+                        
                     }
                 }
                 

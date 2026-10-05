@@ -15,6 +15,9 @@ timer_fugindo = 0;
 
 estou_fugindo = 0;
 
+//Chance
+explodir = choose(1, 2);
+
 //Máquina de estados
 maquina_de_estados = function()
 {
@@ -39,12 +42,39 @@ maquina_de_estados = function()
             
             timer_carregando++;
             
-            if (timer_carregando >= tempo_carregando)
+            if (explodir > 1)
             {
-                timer_carregando = 0;
-                
-                estado = choose("atirando", "atirando2");
+                if (timer_carregando >= tempo_carregando)
+                {
+                    timer_carregando = 0;
+                    
+                    estado = choose("atirando", "atirando2");
+                }
             }
+            else 
+            {
+            	tremendo(10);
+                
+                var _ang = 255;
+                var _index = 0;
+                
+                repeat (13) 
+                {
+                    var _quebrado = instance_create_layer(x, y, "Inimigos", obj_quebrando);
+                    _quebrado.direction = _ang;
+                    _quebrado.image_index = _index;
+                    
+                    var _obj_tiro = instance_create_layer(x, y, "Tiros", obj_tiro);
+         			_obj_tiro.vspeed = 2;
+         			_obj_tiro.direction = _ang;
+                    
+                    _ang += 30;
+                    _index += 1;
+                }
+    
+                instance_destroy();
+            }
+            
         }
         break;
     
