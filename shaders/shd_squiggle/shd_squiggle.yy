@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_squiggle",
+  "name":"shd_squiggle",
+  "parent":{
+    "name":"squiggle",
+    "path":"folders/squiggle.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_squiggle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_squiggle",
+  "parent":{
+    "name":"squiggle",
+    "path":"folders/squiggle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
